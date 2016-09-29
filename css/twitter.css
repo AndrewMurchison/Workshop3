@@ -1,0 +1,49 @@
+body {
+  padding-top: 60px;
+}
+.list-inline{
+
+  border-top: 1px solid lightgrey;
+
+}
+.reply-search{
+  width: 500px !important;
+}
+
+.btn-left button{
+  background-color: transparent;
+  border: none;
+  color: grey;
+}
+.grey{
+  color: grey;
+
+}
+.list-retweet{
+  padding-top: 20px;
+  padding-bottom: 5px
+
+}
+
+.list-retweet span{
+  padding-top: 10px;
+  padding-right: 50px;
+}
+
+.list-retweet li{
+  padding-right: 30px;
+
+}
+.list-retweet a{
+  padding-right: 15px;
+}
+.twitter-search button{
+  border-left: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+}
+.btn-toolbar input{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
