@@ -1,0 +1,50 @@
+
+
+html, body, .maingrid{
+    height:100%;
+
+}
+.maingrid{
+ background-color: lightblue;
+
+}
+
+.toprow{
+  height: 10%;
+  padding-top: 30px;
+ }
+
+
+ .middlerow{
+   height:15%;
+   background-color:  #E6E6DC;
+
+
+ }
+ .bottomrow{
+   height:75%;
+
+ }
+
+.content{
+  height: inherit;
+
+}
+
+.display{
+  height: 100%;
+
+
+}
+.welcome{
+
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  text-align: center;
+
+
+}
