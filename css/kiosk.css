@@ -59,7 +59,7 @@ html, body{
 }
 
 .scanimg{
-  height: 60%;
+  height: 70%;
   padding-top: 20px;
   padding-bottom: 20px;
 
@@ -76,24 +76,26 @@ html, body{
 
 .scanbox{
   height: 20%;
+  text-align: center;
+  padding-top: 30%;
+  padding-bottom: 10%;
 
-  position: relative;
+
 }
 .last{
-  height: 20%;
+  height: 10%;
 }
 
 
 
 .scanbox > form > input{
-  position: absolute;
-  bottom: 0;
-  right: 30%;
-  left: 30%;
-
-  height: 30%;
 
 
+
+
+  font-size: 1.5vw;
+
+  width: 50%;
   border: 2px solid gray;
 
   text-align: center;
