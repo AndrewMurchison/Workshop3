@@ -22,8 +22,15 @@ html, body{
   height: 10%;
 
 }
+.pimg{
+
+  height: 100%;
+  background-image: url("/img/paycelogo.png");
+  background-size: cover;
+}
 
 .Welcome{
+
   height: 15%;
 
 
@@ -35,13 +42,7 @@ html, body{
 }
 
 .welcometxt{
-
-
-  top: 40%;
-
-  font-size: 200%;
+  overflow: auto;
   text-align: center;
-
-
-
+  font-size: 2vw;
 }
