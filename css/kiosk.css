@@ -4,7 +4,8 @@ html, body{
     height:100%;
     padding-top:10px;
     padding-bottom:10px;
-    background-color: #96C0CE;
+    background-color:  #FEF6EB;
+
 }
 .maingrid{
   height: inherit;
@@ -15,29 +16,29 @@ html, body{
 
 .Payce, .Welcome, .Content{
 
-  border: 1px solid black;
-}
-
-.Payce{
-  height: 10%;
 
 }
+
+
 .pimg{
 
   height: 100%;
   background-image: url("/img/paycelogo.png");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .Welcome{
 
   height: 15%;
+  background-color:  #96C0CE;
+  border: 1px solid  #BEB9B5;
 
 
 }
 
 .Content{
-  height: 75%;
+  height: 85%;
   margin-left: 50px;
   margin-right: 50px;
 
@@ -53,10 +54,12 @@ html, body{
 
 .LeftSidebar{
   height: 100%;
+
+
 }
 
 .scanimg{
-  height: 70%;
+  height: 60%;
   padding-top: 20px;
   padding-bottom: 20px;
 
@@ -66,15 +69,37 @@ html, body{
   height: 100%;
   background-image: url("/img/scanTicket.png");
   background-size: cover;
-  border: 2px #C25B56;
+  border: 1px solid  #BEB9B5;
 }
 
 
 
 .scanbox{
-  height: 30%;
-  border: 1px solid black;
+  height: 20%;
+
+  position: relative;
 }
+.last{
+  height: 20%;
+}
+
+
+
+.scanbox > form > input{
+  position: absolute;
+  bottom: 0;
+  right: 30%;
+  left: 30%;
+
+  height: 30%;
+
+
+  border: 2px solid gray;
+
+  text-align: center;
+}
+
+
 
 
 
@@ -83,4 +108,5 @@ html, body{
   text-align: center;
   font-size: 2vw;
   color: black;
+  font-family: "Avant Garde", sans-serif;
 }
