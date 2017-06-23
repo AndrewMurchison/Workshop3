@@ -11,6 +11,7 @@ html, body, .maingrid{
 
 .toprow{
   height: 10%;
+  position: relative;
 
  }
 
@@ -19,11 +20,19 @@ html, body, .maingrid{
    height:15%;
    background-color:  #E6E6DC;
    border: 1px solid black;
-
-
-   font-size: 24px;
-   padding-top: 10px;
+   position: relative;
    text-align: center;
+
+
+ }
+
+ .cntrtxt{
+   top:20%;
+   bottom:20%;
+   left:40%;
+   right:40%;
+   position: absolute;
+   font-size: 24px;
 
 
  }
@@ -52,7 +61,7 @@ html, body, .maingrid{
 }
 
 .EntryField{
-  height: 20%
+  height: 20%;
 }
 .scanimg{
   height:80%;
