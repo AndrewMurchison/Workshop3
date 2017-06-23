@@ -32,7 +32,7 @@ html, body{
 
   height: 15%;
   background-color:  #96C0CE;
-  border: 1px solid  #BEB9B5;
+  border: 2px solid  #BEB9B5;
 
 
 }
@@ -125,9 +125,12 @@ html, body{
 }
 
 .instructions{
-  height: 20%;
+  height: auto;
   border: 1px solid black;
   text-align: center;
-  font-size: 0.9vw;
+  font-size: 1vw;
+  overflow: hidden;
+  background-color:  #96C0CE;
+  border: 2px solid  #BEB9B5;
 
 }
