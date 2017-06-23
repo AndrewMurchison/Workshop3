@@ -11,7 +11,7 @@ html, body, .maingrid{
 
 .toprow{
   height: 10%;
-  
+
  }
 
 
@@ -39,6 +39,26 @@ html, body, .maingrid{
 
 .display{
   height: 100%;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
 
+.leftside{
+  height: 100%;
 
+  border: 1px solid black;
+  padding:10px;
+}
+
+.EntryField{
+  height: 20%
+}
+.scanimg{
+  height:80%;
+  border: 1px solid grey;
+  background-image: url("/img/scanTicket.png");
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat: no-repeat;
 }
