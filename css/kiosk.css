@@ -37,17 +37,25 @@ html, body{
 
 }
 
+.welcometxt{
+  overflow: auto;
+  text-align: center;
+  font-size: 2vw;
+  color: black;
+  font-family: "Avant Garde", sans-serif;
+}
+
 .Content{
   height: 85%;
   margin-left: 50px;
   margin-right: 50px;
-
+  padding-top: 30px;
 
 }
 
 .Content > div{
   height: 100%;
-  border: 1px solid black;
+
 
 
 }
@@ -59,7 +67,7 @@ html, body{
 }
 
 .scanimg{
-  height: 70%;
+  height: 60%;
   padding-top: 20px;
   padding-bottom: 20px;
 
@@ -83,7 +91,7 @@ html, body{
 
 }
 .last{
-  height: 10%;
+  height: 20%;
 }
 
 
@@ -101,14 +109,25 @@ html, body{
   text-align: center;
 }
 
+.middle{
+  border: 1px solid black;
+  height: 100%;
+}
 
+.ticketinstr{
+  border: 1px solid black;
+  height: 30%;
+}
 
+.scanvideo{
+  border: 1px solid black;
+  height: 50%;
+}
 
-
-.welcometxt{
-  overflow: auto;
+.instructions{
+  height: 20%;
+  border: 1px solid black;
   text-align: center;
-  font-size: 2vw;
-  color: black;
-  font-family: "Avant Garde", sans-serif;
+  font-size: 0.9vw;
+
 }
