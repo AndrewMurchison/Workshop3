@@ -4,7 +4,7 @@ html, body{
     height:100%;
     padding-top:10px;
     padding-bottom:10px;
-    background-color: lightblue;
+    background-color: #96C0CE;
 }
 .maingrid{
   height: inherit;
@@ -38,11 +38,49 @@ html, body{
 
 .Content{
   height: 75%;
+  margin-left: 50px;
+  margin-right: 50px;
+
 
 }
+
+.Content > div{
+  height: 100%;
+  border: 1px solid black;
+
+
+}
+
+.LeftSidebar{
+  height: 100%;
+}
+
+.scanimg{
+  height: 70%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.scan{
+  height: 100%;
+  background-image: url("/img/scanTicket.png");
+  background-size: cover;
+  border: 2px #C25B56;
+}
+
+
+
+.scanbox{
+  height: 30%;
+  border: 1px solid black;
+}
+
+
 
 .welcometxt{
   overflow: auto;
   text-align: center;
   font-size: 2vw;
+  color: black;
 }
