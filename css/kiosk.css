@@ -125,45 +125,33 @@ html, body{
   border: 1px solid black;
   position: relative;
   width: 100%;
-  
+
   margin-bottom: 20px;
 
 
 }
+
 .ticketinstr > div{
-  height: auto;
   position: absolute;
+  height: auto;
+  width: auto;
   top: 50%;
-  left: 40%;
-  transform: translate(-40%, -50%);
-}
+  left: 60%;
+  transform: translate(-60%, -50%);
 
-.ticketinstr > div > div{
-
-  float: left;
-
-}
-
-.ticketinstr > div:first-child{
-  text-align: right;
-}
-.tikinfo{
-  text-align: center;
+  white-space: nowrap;
 }
 
 
-.ticketinstr ul{
-  height: 100%;
-  list-style-type: none;
 
+
+.alignrt{
+  float: right;
 }
 
-.ticketinstr li{
-  margin-top: 5px;
-}
-
-.tikinfo li{
+.alignct{
   color: white;
+
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   border-top-left-radius: 5px;
