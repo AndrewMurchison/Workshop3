@@ -112,6 +112,8 @@ html, body{
 .middle{
 
   height: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .ticketinstr{
@@ -129,6 +131,7 @@ html, body{
   height: 60%;
   width: 100%;
   position: relative;
+  margin-top: 20px;
 
 
 
@@ -139,13 +142,14 @@ html, body{
   position: absolute;
   height: 100%;
   width: 100%;
-  top: 20%;
+
 
 
 }
 
 .instructions{
   height: auto;
+  min-height: 20%;
   border: 6px solid #a8cbd6;
   text-align: center;
   font-size: 1vw;
@@ -154,12 +158,13 @@ html, body{
 }
 
 .RightSidebar{
-  border: 1px solid black;
+
   height: 100%;
+  font-size: 1vw;
 }
 
 .helploc{
-  border: 1px solid black;
+
   height: 30%;
 
 }
@@ -167,18 +172,39 @@ html, body{
 .helploc > button{
   width: 100%;
   height: 30%;
-  font-size: 1vw;
+
 }
 
 .paymentloc{
-  border: 1px solid black;
+
   height: 70%;
 }
 .paymentopt{
-  height: 12.8%;
-  border: 1px solid black;
+  height: 20%;
+  border: 6px solid #a8cbd6;
+  background-color:  #96C0CE;
+
+  position: relative;
+}
+
+.paymentopt > div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.paymenttype{
+  height: 12.9%;
+  margin-top: 20px;
+  
+
+
 }
 .paymentloc button{
-  width: 100%;
-  height: 10%;
+  width: 50%;
+  height: 100%;
+  float: left;
+
 }
