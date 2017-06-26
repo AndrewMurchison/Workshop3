@@ -114,12 +114,75 @@ html, body{
   height: 100%;
   padding-left: 10%;
   padding-right: 10%;
+  font-size: 1vw;
 }
 
 .ticketinstr{
 
-  height: 30%;
+  min-height: 30%;
+  height: auto;
+  overflow: hidden;
+  border: 1px solid black;
+  position: relative;
+  width: 100%;
+  font-size: 1.2vw;
+  margin-bottom: 20px;
+
+
 }
+.ticketinstr > div{
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-40%, -50%);
+}
+
+.ticketinstr > div > div{
+
+  float: left;
+
+}
+
+.ticketinstr > div:first-child{
+  text-align: right;
+}
+.tikinfo{
+  text-align: center;
+}
+
+
+.ticketinstr ul{
+  height: 100%;
+  list-style-type: none;
+
+}
+
+.ticketinstr li{
+  margin-top: 5px;
+}
+
+.tikinfo li{
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.blue{
+  background-color: #0099ff;
+
+}
+.green{
+  background-color: #66cc66;
+
+}
+.orange{
+  background-color: #ffa64d;
+
+}
+
 
 .scanvideo{
 
@@ -164,7 +227,7 @@ html, body{
 }
 
 .helploc{
-
+  margin-bottom: 20px;
   height: 30%;
 
 }
@@ -172,6 +235,7 @@ html, body{
 .helploc > button{
   width: 100%;
   height: 30%;
+
 
 }
 
@@ -198,7 +262,7 @@ html, body{
 .paymenttype{
   height: 12.9%;
   margin-top: 20px;
-  
+
 
 
 }
